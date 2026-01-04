@@ -24,7 +24,7 @@ services:
       DB_PORT: 5432
       DB_USER: test
       DB_PASSWORD: test
-      DB_DATABASE: test_db
+      DB_NAME: test_db
     ports:
       - "3000:3000"
     depends_on:
