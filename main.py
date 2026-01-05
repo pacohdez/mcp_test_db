@@ -96,3 +96,6 @@ def add_employee(
         }
     except Exception as e:
         return {"error": f"Error al agregar empleado: {str(e)}"}
+    
+if __name__ == "__main__":
+    app.run(transport="sse", host="0.0.0.0", port=3000)
